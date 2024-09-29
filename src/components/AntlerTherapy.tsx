@@ -17,6 +17,7 @@ export function AntlerTherapy() {
           loop
           muted
           autoPlay
+          playsInline //prevents going fullscreen on ios
           src="assets/vid/deers.mp4"
         >
           your browser does not support the video tag

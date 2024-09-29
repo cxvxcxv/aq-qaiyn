@@ -1,6 +1,6 @@
 import { useInView } from 'react-intersection-observer';
 
-export function useOpacity({ triggerOnce = true, threshold = 0.75 } = {}) {
+export function useOpacity({ triggerOnce = true, threshold = 0 } = {}) {
   const { ref, inView } = useInView({
     triggerOnce,
     threshold,
