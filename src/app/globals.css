@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-bg-light dark:bg-bg-dark;
+    @apply text-text-dark dark:text-text-light;
+    line-height: 1.5; /* by default */
+    font-size: 16px;
+    @screen md {
+      font-size: 18px;
+    }
+    @screen lg {
+      font-size: 20px;
+    }
+  }
+  h1 {
+    @apply text-3xl font-black tracking-wider;
+  }
+  h2 {
+    @apply text-xl font-semibold tracking-wide;
+  }
+}
