@@ -1,11 +1,10 @@
 'use client';
 
-import { DESCRIPTION_INFO, TELS } from '@/constants/info.constants';
+import { DESCRIPTION_INFO } from '@/constants/info.constants';
 
 import { useOpacity } from '@/hooks/animation/useOpacity';
 
 import { Slider } from './Slider';
-import { A } from './ui/A';
 import { Li } from './ui/Li';
 
 export function Description() {
@@ -14,17 +13,16 @@ export function Description() {
     <section className="my-24 text-center sm:text-left">
       <div className="w-full">
         <Slider />
-        <h1 className="my-4">По-домашнему</h1>
+        <h1 className="my-4">Описание</h1>
         <p>
           Наш гостиничный корпус состоит из семи номеров на 2-3 спальных места
           каждая. Имеется общая гостиная для проведения досуга, игр и просмотров
           фильмов.
         </p>
-        <A href={`tel:${TELS[0]}`} className="my-8 w-full">
+        {/* <A href={`tel:${TELS[0]}`} className="my-8 w-full">
           Забронировать номер
-        </A>
+        </A> */}
       </div>
-      <h1>Описание</h1>
       <div
         ref={ref}
         className={`my-4 grid grid-cols-3 justify-items-center rounded-sm border border-text-dark/50 dark:border-text-light/50 ${opacityClass}`}
@@ -46,10 +44,10 @@ export function Description() {
       </div>
       <div className="sm:flex sm:justify-between">
         <div>
-          <h2>Одна процедура состоит из:</h2>
+          <h2>Ежедневная процедура состоит из:</h2>
           <ul className={`text-left ${opacityClass}`}>
-            <Li>пантофитовой ванны</Li>
-            <Li>пантофитовой сауны</Li>
+            <Li>пантофитовой ванны (2 шт.)</Li>
+            <Li>пантофитовой сауны (2 шт.)</Li>
             <Li>фито-кабинки</Li>
             <Li>чайной церемонии с алтайским мёдом</Li>
           </ul>

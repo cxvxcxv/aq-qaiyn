@@ -6,32 +6,34 @@ import {
   TPricesInfo,
 } from '@/types/info.types';
 
-import antlerClinic2 from '@/assets/img/antlerClinic2.png';
 import antlerClinic from '@/assets/img/antlerClinic.png';
+import bath from '@/assets/img/bath.png';
+import bathhouse2 from '@/assets/img/bathhouse2.png';
+import bathhouse from '@/assets/img/bathhouse.png';
 import berries from '@/assets/img/berries.png';
-import cabin from '@/assets/img/cabin.png';
+import cabins from '@/assets/img/cabins.png';
 import corral from '@/assets/img/corral.png';
+import deer from '@/assets/img/deer.png';
 import deers from '@/assets/img/deers.png';
 import doubleRoom2 from '@/assets/img/doubleRoom2.png';
-import doubleRoom3 from '@/assets/img/doubleRoom3.png';
 import doubleRoom from '@/assets/img/doubleRoom.png';
 import field from '@/assets/img/field.png';
 import hallway from '@/assets/img/hallway.png';
 import horses from '@/assets/img/horses.png';
-import hotel from '@/assets/img/hotel.png';
+import house2 from '@/assets/img/house2.png';
 import house from '@/assets/img/house.png';
+import kitchen from '@/assets/img/kitchen.png';
 import lake from '@/assets/img/lake.png';
 import lakeMountains from '@/assets/img/lakeMountains.png';
 import livingRoom2 from '@/assets/img/livingRoom2.png';
 import livingRoom from '@/assets/img/livingRoom.png';
+import outside2 from '@/assets/img/outside2.png';
+import outside from '@/assets/img/outside.png';
 import river from '@/assets/img/river.png';
 import sign from '@/assets/img/sign.png';
-import singleRoom from '@/assets/img/singleRoom.png';
-import sofa from '@/assets/img/sofa.png';
 import stone from '@/assets/img/stone.png';
-import yurt from '@/assets/img/yurt.png';
 
-export const TELS = ['+77055223333', '+77052636337', '+77075449796'];
+export const TELS = ['+77052636337', '+77055223333', '+77075449796'];
 
 export const HEADER_IMAGES = [
   field,
@@ -44,21 +46,22 @@ export const HEADER_IMAGES = [
 ];
 
 export const SLIDER_IMAGES = [
-  singleRoom,
-  livingRoom,
+  outside,
+  outside2,
+  antlerClinic,
+  house,
+  house2,
   doubleRoom,
   doubleRoom2,
-  doubleRoom3,
-  sofa,
-  hallway,
   livingRoom,
   livingRoom2,
-  cabin,
-  antlerClinic,
-  antlerClinic2,
-  yurt,
-  house,
-  hotel,
+  hallway,
+  kitchen,
+  cabins,
+  bath,
+  bathhouse,
+  bathhouse2,
+  deers,
 ];
 
 export const DESCRIPTION_INFO: TDescriptionInfo[] = [
@@ -90,16 +93,16 @@ export const PRICES_INFO: TPricesInfo[] = [
       'прием пантогематогена',
     ],
   },
-  {
-    title: 'отдельный домик на 4 человека',
-    price: '150 000 тг',
-    components: [
-      '3-х разовое питание',
-      'пантофитовые ванны',
-      'посещение фитобани',
-      'прием пантогематогена',
-    ],
-  },
+  // {
+  //   title: 'отдельный домик на 4 человека',
+  //   price: '150 000 тг',
+  //   components: [
+  //     '3-х разовое питание',
+  //     'пантофитовые ванны',
+  //     'посещение фитобани',
+  //     'прием пантогематогена',
+  //   ],
+  // },
 ];
 
 export const ACTIVITIES_INFO: TActivitiesInfo[] = [
@@ -116,7 +119,7 @@ export const ACTIVITIES_INFO: TActivitiesInfo[] = [
       'Сбор ягод, грибов, лекарственных растений является увлекательным видом отдыха, который имеет релаксирующее воздействие. Не упустите возможность заготовить себе ягоды и травы на зиму.',
   },
   {
-    img: deers,
+    img: deer,
     title: 'Пантолечение',
     description:
       'В биохимический состав пантов марала входят многочисленные аминокислоты (общие и свободные), коллаген, витамины, микро- и макроэлементы, оказывающие положительное влияние на работу всего организма',
