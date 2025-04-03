@@ -5,7 +5,6 @@ import { DESCRIPTION_INFO } from '@/constants/info.constants';
 import { useOpacity } from '@/hooks/animation/useOpacity';
 
 import { Slider } from './Slider';
-import { Li } from './ui/Li';
 
 export function Description() {
   const { ref, opacityClass } = useOpacity();
@@ -15,13 +14,10 @@ export function Description() {
         <Slider />
         <h1 className="my-4">Описание</h1>
         <p>
-          Наш гостиничный корпус состоит из семи номеров на 2-3 спальных места
-          каждая. Имеется общая гостиная для проведения досуга, игр и просмотров
-          фильмов.
+          На территории комплекса расположен гостиничный корпус, состоящий из
+          семи номеров на 2-3 спальных места каждое. Имеется общая гостиная для
+          проведения досуга, игр и просмотра фильмов.
         </p>
-        {/* <A href={`tel:${TELS[0]}`} className="my-8 w-full">
-          Забронировать номер
-        </A> */}
       </div>
       <div
         ref={ref}
@@ -43,7 +39,7 @@ export function Description() {
         ))}
       </div>
       <div className="sm:flex sm:justify-between">
-        <div>
+        {/* <div>
           <h2>Ежедневная процедура состоит из:</h2>
           <ul className={`text-left ${opacityClass}`}>
             <Li>пантофитовой ванны (2 шт.)</Li>
@@ -51,7 +47,7 @@ export function Description() {
             <Li>фито-кабинки</Li>
             <Li>чайной церемонии с алтайским мёдом</Li>
           </ul>
-        </div>
+        </div> */}
         <p className="text-xs sm:w-1/3">
           Для принятия процедур допускаются дети с 14 лет. Противопоказания
           общие для водных процедур, тяжелая форма гипертонии.

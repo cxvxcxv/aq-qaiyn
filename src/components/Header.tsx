@@ -43,6 +43,9 @@ export function Header() {
         className={`absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-center text-6xl font-bold text-text-light sm:text-7xl lg:text-8xl ${opacityClass}`}
       >
         Aq Qaiyŋ
+        <small className="mt-2 block text-4xl tracking-wider">
+          Катон-Карагай
+        </small>
       </h1>
     </section>
   );

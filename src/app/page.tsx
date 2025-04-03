@@ -10,9 +10,9 @@ export default function HomePage() {
     <main>
       <Header />
       <section className="my-24 px-xs sm:px-sm md:px-md lg:px-lg">
+        <About />
         {/* <Benefits /> */}
         <AntlerTherapy />
-        <About />
         <Description />
         <Prices />
         {/* <Activities /> */}
