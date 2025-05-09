@@ -2,7 +2,7 @@
 
 import { AnchorHTMLAttributes, PropsWithChildren } from 'react';
 
-type TA = Omit<AnchorHTMLAttributes<HTMLAnchorElement>, 'href'> & {
+type TA = AnchorHTMLAttributes<HTMLAnchorElement> & {
   href: string; //makes href property required
 };
 
