@@ -102,7 +102,7 @@ export const DESCRIPTION_INFO: TDescriptionInfo[] = [
 export const PRICES_INFO: TPricesInfo[] = [
   {
     title: 'стандартный номер на человека',
-    price: '35 000 тг',
+    price: '40 000 тг',
     components: [
       'проживание',
       '3-х разовое питание',

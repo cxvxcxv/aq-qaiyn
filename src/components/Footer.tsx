@@ -36,7 +36,7 @@ export function Footer() {
         </div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3514.5883124211473!2d85.58034765350001!3d49.17195700493726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42bed3dc42e0baf3%3A0x9e6b3a1b7b9cbaac!2sLok%20%22Ak-Kayyn%22!5e1!3m2!1sen!2skz!4v1742383335070!5m2!1sen!2skz"
-          className="h-full w-full flex-1 md:aspect-square"
+          className="aspect-square h-full flex-1 md:w-16"
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"

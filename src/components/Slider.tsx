@@ -1,7 +1,7 @@
 'use client';
 
 import clsx from 'clsx';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeftSquare, ChevronRightSquare } from 'lucide-react';
 import Image, { StaticImageData } from 'next/image';
 import { useState } from 'react';
 
@@ -38,10 +38,20 @@ export function Slider() {
       </div>
       <div className="absolute left-1/2 top-1/2 flex w-full -translate-x-1/2 -translate-y-1/2 justify-between text-text-light">
         <button onClick={goToPreviousImage}>
-          <ChevronLeft className="h-16 w-16 md:h-24 md:w-24" />
+          <ChevronLeftSquare
+            className="h-16 w-16 md:h-24 md:w-24"
+            strokeWidth={1.5}
+            stroke="#000"
+            fill="#fff"
+          />
         </button>
         <button onClick={goToNextImage}>
-          <ChevronRight className="h-16 w-16 md:h-24 md:w-24" />
+          <ChevronRightSquare
+            className="h-16 w-16 md:h-24 md:w-24"
+            strokeWidth={1.5}
+            stroke="#000"
+            fill="#fff"
+          />
         </button>
       </div>
     </section>
